@@ -1,0 +1,30 @@
+{
+  "name": "taxable_app",
+  "version": "1.0.0",
+  "description": "Use our FREE calculator to see where your tax is going! How much is our government spending on health, education, defence and more? Find out",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshdevherd/taxable_app.git"
+  },
+  "keywords": [
+    "calculator",
+    "tax",
+    "government",
+    "education",
+    "free"
+  ],
+  "author": "Josh Shepherd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshdevherd/taxable_app/issues"
+  },
+  "homepage": "https://github.com/joshdevherd/taxable_app#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
