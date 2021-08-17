@@ -1,0 +1,63 @@
+#abv-fold {
+    background-image: url(../img/taxable_home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+  }
+  
+  .float {
+    float: right;
+    padding-left: 1.5rem;
+  }
+  
+  #how_to {
+    margin-bottom: 6rem;
+  }
+  
+  .to_calc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .to_calc li {
+    width: 60vw !important;
+    text-align: center;
+  }
+  
+  #right_arrow {
+    display: inline-block;
+  }
+  
+  #about-header {
+    font-size: 2.3rem;
+  }
+  
+  #data-table {
+    outline: 1px solid black;
+  }
+  
+  #table-head {
+    font-weight: bold;
+    outline: 1px solid black;
+    padding: 1em;
+  }
+  
+  .row {
+    margin: 0 !important;
+    padding: 1em;
+  }
+  
+  .footer-copyright p.flow-text {
+    margin-bottom: 0 !important;
+  }
+
+  main {
+    padding-bottom: 4em;
+  }

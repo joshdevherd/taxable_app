@@ -1,0 +1,47 @@
+<%- include('partials/head'); %>
+
+    <main>
+        <section id="abv-fold">
+        
+        </section>
+        <div class="container" id="how_to">
+            <h2 class="flow-text">
+                <strong>
+                    How To Use
+                </strong>
+            </h2>
+            <p class="flow-text">
+                Click the link below to visit our free and easy to use calculator. You don’t even need to 
+                know how much tax you pay, just enter your salary and we will work it out for you.
+            </p>
+            <img src="img/float-pic.jpg" alt="" class="responsive-img circle float">
+            <p class="flow-text">
+                Using the tabs at the top of the page, all you need to do is follow the questions and we
+                do the rest of the work for you, and will instantly display the tax breakdown based on the
+                most recent government data, which you can see linked in the about page, located in the 
+                navigation on the top of each webpage.
+            </p>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <nav class="nav-wrapper blue right">
+        <div class="container">
+            <ul class="to_calc">
+                <li><a href="/calculator">
+                    <%= footerAction %> <i class="material-icons" id="right_arrow">arrow_circle_right</i>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('.tabs').tabs();
+        $('.sidenav').sidenav();
+    })
+    </script>
+
+</body>
+</html>

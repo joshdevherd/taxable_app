@@ -1,0 +1,186 @@
+<%- include('partials/head'); %>
+
+<main class="container">
+    <h2 id="about-header">About Calculation</h2>
+
+    <h3 class="flow-text">Data Sources</h3>
+    <p>
+        The data is based on the UK statistics from the 2021/22 budget, 
+        <a href="https://www.gov.uk/government/publications/budget-2021-documents/budget-2021-html">
+    source here
+        </a>. Below is the percentage of allocation:
+    </p>
+    <!-- table of data -->
+
+        <div id="data-table">
+            <div class="row blue darken-4 white-text" id="table-head">
+                <div class="col s4 center">
+                    Spending
+                </div>
+                <div class="col s4 center">
+                    Amount Bn GBP
+                </div>
+                <div class="col s4 center">
+                    Percentage
+                </div>
+            </div>
+            <div class="row blue white-text">
+                <div class="col s4 center">
+                    Social Protection
+                </div>
+                <div class="col s4 center">
+                   302
+                </div>
+                <div class="col s4 center">
+                    28.68%
+                </div>
+            </div>
+            <div class="row blue darken-2 white-text">
+                <div class="col s4 center">
+                    Personal Social Services
+                </div>
+                <div class="col s4 center">
+                   30
+                </div>
+                <div class="col s4 center">
+                    3.8%
+                </div>
+            </div>
+            <div class="row blue white-text">
+                <div class="col s4 center">
+                    Health
+                </div>
+                <div class="col s4 center">
+                   230
+                </div>
+                <div class="col s4 center">
+                    21.84%
+                </div>
+            </div>
+            <div class="row blue darken-2 white-text">
+                <div class="col s4 center">
+                    Transport
+                </div>
+                <div class="col s4 center">
+                   51
+                </div>
+                <div class="col s4 center">
+                    4.84%
+                </div>
+            </div>
+            <div class="row blue white-text">
+                <div class="col s4 center">
+                    Education
+                </div>
+                <div class="col s4 center">
+                   124
+                </div>
+                <div class="col s4 center">
+                    11.78%
+                </div>
+            </div>
+            <div class="row blue darken-2 white-text">
+                <div class="col s4 center">
+                    Defence
+                </div>
+                <div class="col s4 center">
+                   60
+                </div>
+                <div class="col s4 center">
+                    5.70%
+                </div>
+            </div>
+            <div class="row blue white-text">
+                <div class="col s4 center">
+                    Industry, agriculture & employment
+                </div>
+                <div class="col s4 center">
+                   70
+                </div>
+                <div class="col s4 center">
+                    6.65%
+                </div>
+            </div>
+            <div class="row blue darken-2 white-text">
+                <div class="col s4 center">
+                    Housing &amp; Environment
+                </div>
+                <div class="col s4 center">
+                   33
+                </div>
+                <div class="col s4 center">
+                    3.13%
+                </div>
+            </div>
+            <div class="row blue white-text">
+                <div class="col s4 center">
+                    Public Order &amp; Safety
+                </div>
+                <div class="col s4 center">
+                   41
+                </div>
+                <div class="col s4 center">
+                    3.89%
+                </div>
+            </div>
+            <div class="row blue darken-2 white-text">
+                <div class="col s4 center">
+                    Debt Interest
+                </div>
+                <div class="col s4 center">
+                   45
+                </div>
+                <div class="col s4 center">
+                    4.27%
+                </div>
+            </div>
+            <div class="row blue white-text">
+                <div class="col s4 center">
+                    Other
+                </div>
+                <div class="col s4 center">
+                   57
+                </div>
+                <div class="col s4 center">
+                    5.41%
+                </div>
+            </div>
+            <div class="row blue darken-2 white-text">
+                <div class="col s4 center">
+                    Total
+                </div>
+                <div class="col s4 center">
+                   1,053
+                </div>
+                <div class="col s4 center">
+                    100%
+                </div>
+            </div>
+        </div>
+        
+</main>
+
+
+<nav class="nav-wrapper blue right">
+    <div class="container">
+        <ul class="to_calc">
+            <li><a href="/calculator">
+                <%= footerAction %> <i class="material-icons" id="right_arrow">arrow_circle_right</i>
+            </a></li>
+        </ul>
+    </div>
+</nav>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function() {
+    $('.tabs').tabs();
+    $('.sidenav').sidenav();
+})
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
